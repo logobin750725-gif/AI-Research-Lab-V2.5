@@ -1,4 +1,43 @@
-# AI 研究室 V2.5｜部署接手結果
+# AI 研究室 V2.5｜Preview 部署完成
+
+更新日期：2026-10-14（Asia/Taipei）。
+
+## 最新結果
+
+- **Preview URL**：https://ai-research-lab-v25-preview-iyex4inld-logobin750725-9847.vercel.app
+- **狀態**：READY；target=null（Preview），未提升為 Production。
+- **專案**：ai-research-lab-v25-preview / prj_siM769rAySgnhMac1UvnUZHSm1YH。
+- **團隊**：logobin750725-9847 / team_yq8ciJZ2YnZrFQWS2aT3cp75，建立後已核對 accountId。
+- **部署 ID**：dpl_9ptdPPE1eV3uUWT9gP3kKEA31z2J。
+- **來源提交**：c761bdc5857df07b1014a54204bb12ddb4f20400，分支 preview/verified-v25-20261014。
+- **部署方式**：先由指定 GitHub 提交 git archive 取出 54 個檔案，以上傳原始碼方式交給 Vercel 建置；不是 Vercel Git 自動同步。
+- **遠端狀態**：INITIALIZING → BUILDING → READY；buildingAt 至 ready 約 24.7 秒。建置日誌端點仍回傳 403，因此沒有取得遠端完整終端輸出。
+- **線上驗證 PASS**：已登入 Chrome 實際開啟首頁、建立「Preview 部署驗證」專案、加入文字附件、重新載入後資料仍存在；擷取的 error logs 為空。
+- **存取方式**：Preview 保持 Vercel Authentication。已登入且具權限的瀏覽器可開啟；未登入請求回傳 302 驗證頁。未關閉保護或擴大權限。
+- **V40 隔離 PASS**：只讀核對 compass-v40-official-relay，latestDeployment 仍為 dpl_ALfciRLkfxJfSDkndUCEhFFW3tfs，updatedAt=1791910680141，與部署前一致。
+- 本機 install/build/test/typecheck 均 Exit 0，5 tests PASS；詳見 BUILD-TEST-RESULT.md。
+- Gemini／GPT／Meta 仍為 MANUAL，未呼叫真實 API。iPhone 實機、完整離線、完整匯出仍為 NOT TESTED；原文件解析與 ZIP 還原缺漏仍為 FAIL，未因部署成功改判。
+
+## 阻斷解除與失敗紀錄
+
+明確指定 teamId 或 slug 的請求持續 403；預設連線可讀取相同團隊的專案。確認預設帳戶所屬團隊後，以該連線成功建立全新獨立專案。
+因此先前「完全沒有部署權限」的判斷過於籠統；實際是不同連接器操作／範圍參數的行為不一致。
+
+第一筆 GitSource 請求指定 target=preview，回傳卻標為 production，最終 ERROR / git_info_fail；部署 ID 為 dpl_BAtFbjn8KzfeYJri9P8VVuX8EhXQ。沒有成功發布 Production。
+依 Vercel 官方工具文件，建立 Preview 應省略 target。改以上傳同一 GitHub 提交的原始碼並省略 target 後，回傳 target=null，現已 READY。
+畫面上方的 Error 是第一筆失敗；「No Production Deployment」符合只交付 Preview 的範圍。
+
+## 本次交付
+
+- 本文件：最新部署結果。
+- BUILD-TEST-RESULT.md：真實本機指令與驗證。
+- AI-Lab-V2.5-VERIFIED-SOURCE.zip：修正版原始碼、lockfile、真實 dist 與更新報告。
+- AI-Lab-V2.5-FINAL-original.zip：原始附件原封保留。
+- ai-lab-v25-live-preview.png：線上 Preview 建立及重載保存證據。
+
+---
+
+## 初次接手紀錄（歷史存檔，以下 BLOCKED 不代表最新狀態）
 
 日期：2026-10-14（Asia/Taipei）。
 
