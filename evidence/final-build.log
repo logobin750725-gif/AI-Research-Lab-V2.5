@@ -1,0 +1,33 @@
+
+> ai-lab-v2.5@2.5.0 build
+> tsc && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 435 modules transformed.
+rendering chunks...
+[plugin:vite:reporter] [plugin vite:reporter] 
+(!) C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/node_modules/file-saver/dist/FileSaver.min.js is dynamically imported by C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/src/pages/FilePage.tsx but also statically imported by C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/src/lib/exporters.ts, dynamic import will not move module into another chunk.
+
+[plugin:vite:reporter] [plugin vite:reporter] 
+(!) C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/node_modules/jszip/dist/jszip.min.js is dynamically imported by C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/src/pages/FilePage.tsx but also statically imported by C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source/src/lib/exporters.ts, dynamic import will not move module into another chunk.
+
+computing gzip size...
+dist/registerSW.js                         0.13 kB
+dist/manifest.webmanifest                  0.40 kB
+dist/index.html                            0.73 kB │ gzip:   0.45 kB
+dist/assets/index-BFRM9zGY.css             2.46 kB │ gzip:   0.99 kB
+dist/assets/purify.es-BwoZCkIS.js         22.03 kB │ gzip:   8.77 kB
+dist/assets/index.es-aw6jvEez.js         150.87 kB │ gzip:  51.62 kB
+dist/assets/html2canvas.esm-CBrSDip1.js  201.42 kB │ gzip:  48.03 kB
+dist/assets/index-LuzHQyVL.js            318.41 kB │ gzip:  90.98 kB
+dist/assets/jspdf.es.min-CjJOT1Xp.js     357.67 kB │ gzip: 117.99 kB
+dist/assets/index-_XKptD2O.js            402.32 kB │ gzip: 131.36 kB
+✓ built in 6.87s
+
+PWA v0.19.8
+mode      generateSW
+precache  16 entries (1432.58 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-ee9d8b34.js

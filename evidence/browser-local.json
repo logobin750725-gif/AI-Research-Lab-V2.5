@@ -1,0 +1,130 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "check": "home renders",
+      "pass": true
+    },
+    {
+      "check": "create, attach, reload IndexedDB",
+      "pass": true
+    },
+    {
+      "check": "/ direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/input direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/run direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/debate direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/judge direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/single direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/report direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/charts direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/export direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/history direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/files direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "/settings direct route at 390px",
+      "pass": true,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "check": "manual provider state",
+      "pass": true
+    },
+    {
+      "check": "manifest",
+      "pass": true
+    },
+    {
+      "check": "icon-192",
+      "pass": true
+    },
+    {
+      "check": "icon-512",
+      "pass": true
+    },
+    {
+      "check": "page errors",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

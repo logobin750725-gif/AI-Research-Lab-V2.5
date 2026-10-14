@@ -1,0 +1,18 @@
+
+> ai-lab-v2.5@2.5.0 test
+> vitest run --reporter=verbose
+
+
+ RUN  v1.6.1 C:/Users/Administrator/Documents/Codex/2026-10-14/referenced-chatgpt-conversation-this-is-an-2/work/ai-lab-v25-source
+
+ ✓ src/lib/__tests__/core.test.ts > AI Lab V2.5 Core > genId unique
+ ✓ src/lib/__tests__/core.test.ts > AI Lab V2.5 Core > project schema required fields
+ ✓ src/lib/__tests__/core.test.ts > AI Lab V2.5 Core > judge result enum
+ ✓ src/lib/__tests__/core.test.ts > AI Lab V2.5 Core > MANUAL MODE banner logic
+ ✓ src/lib/__tests__/core.test.ts > AI Lab V2.5 Core > export formats list
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  22:54:45
+   Duration  562ms (transform 55ms, setup 0ms, collect 78ms, tests 6ms, environment 0ms, prepare 197ms)
+

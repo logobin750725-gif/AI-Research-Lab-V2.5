@@ -1,0 +1,4 @@
+
+> ai-lab-v2.5@2.5.0 typecheck
+> tsc --noEmit
+
